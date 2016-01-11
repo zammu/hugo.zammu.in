@@ -15,7 +15,11 @@
       <pubDate>Tue, 12 Jan 2016 02:33:53 +0530</pubDate>
       
       <guid>http://hugo.zammu.in/how-to-host-hugo-websites-on-github/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a really fast static site generator. However, it is not
+      <description>&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/overrides.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/asciinema-player.css&#34; /&gt;
+&lt;script src=&#34;http://hugo.zammu.in/asciinema-player.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a really fast static site generator. However, it is not
 very accessible. In this short post I&amp;rsquo;ll show you how to get your Hugo website
 built on Github automatically for each git push.&lt;/p&gt;
 
@@ -34,6 +38,9 @@ it at &lt;a href=&#34;https://zammu.in/feedback?utm_src=hugo.zammu.in&#34;&gt;ht
 
 &lt;p&gt;P.P.S This website is also hosted on &lt;a href=&#34;https://zammu.in/&#34;&gt;https://zammu.in/&lt;/a&gt; . You can checkout its
 source at &lt;a href=&#34;https://github.com/zammu/hugo.zammu.in&#34;&gt;https://github.com/zammu/hugo.zammu.in&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div id=&#34;player-container&#34;&gt;&lt;/div&gt;
+&lt;script src=&#39;http://hugo.zammu.in/load-player.js&#39;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
     
