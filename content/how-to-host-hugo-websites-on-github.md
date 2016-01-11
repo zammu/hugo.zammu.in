@@ -4,6 +4,10 @@ title = "How to host hugo websites on github"
 
 +++
 
+<link rel="stylesheet" type="text/css" href="/overrides.css" />
+<link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
+<script src="/asciinema-player.js"></script>
+
 [Hugo](https://gohugo.io/) is a really fast static site generator. However, it is not
 very accessible. In this short post I'll show you how to get your Hugo website
 built on Github automatically for each git push.
@@ -21,3 +25,7 @@ it at [https://zammu.in/feedback](https://zammu.in/feedback?utm_src=hugo.zammu.i
 
 P.P.S This website is also hosted on https://zammu.in/ . You can checkout its
 source at https://github.com/zammu/hugo.zammu.in
+
+<div id="player-container"></div>
+<script src='/load-player.js'></script>
+
