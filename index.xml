@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Zammu</title>
+    <link>http://hugo.zammu.in/</link>
+    <description>Recent content on Hugo on Zammu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jan 2016 14:30:04 +0530</lastBuildDate>
+    <atom:link href="http://hugo.zammu.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://hugo.zammu.in/about/</link>
+      <pubDate>Sun, 10 Jan 2016 14:30:04 +0530</pubDate>
+      
+      <guid>http://hugo.zammu.in/about/</guid>
+      <description>&lt;p&gt;This is a site which demonstrates how Hugo can be used with Zammu&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
