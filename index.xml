@@ -15,7 +15,9 @@
       <pubDate>Tue, 12 Jan 2016 02:33:53 +0530</pubDate>
       
       <guid>http://hugo.zammu.in/how-to-host-hugo-websites-on-github/</guid>
-      <description>&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/overrides.css&#34; /&gt;
+      <description>
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/overrides.css&#34; /&gt;
 &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/asciinema-player.css&#34; /&gt;
 &lt;script src=&#34;http://hugo.zammu.in/asciinema-player.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -41,6 +43,46 @@ source at &lt;a href=&#34;https://github.com/zammu/hugo.zammu.in&#34;&gt;https:/
 
 &lt;p&gt;&lt;div id=&#34;player-container&#34;&gt;&lt;/div&gt;
 &lt;script src=&#39;http://hugo.zammu.in/load-player.js&#39;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;here-is-the-script-used-in-the-above-screencast:4e8128887a72957b9075a012be1e4381&#34;&gt;Here is the script used in the above screencast&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# init the new site
+hugo new site awesome-hugo-blog
+
+# init the repo
+cd awesome-hugo-blog
+git init
+git commit -m &#39;init&#39;
+
+# setup the theme
+git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16
+# it is VERY important that you add it as a submodule and not just clone it
+
+# commit the theme
+git commit -m &#39;added theme&#39;
+
+# update the config
+vim config.toml
+title = &amp;quot;My very awesome blog&amp;quot;
+theme = &amp;quot;base16&amp;quot;
+^
+git commit -m &#39;updated config&#39;
+
+# now we need to go to github and create our repository and then
+git remote add origin git@github.com:minhajuddin/awesome-hugo-blog
+git push origin master -u
+
+# now we need to go to https://zammu.in/ and create a new site with the following  info
+# Recipe = Github =&amp;gt; Hugo =&amp;gt; Github
+# Title = My awesome Blog
+# Domain =
+# Subdomain = awesomehugo
+# Github URL = minhajuddin/awesome-hugo-blog
+
+echo &amp;quot;That&#39;s it we are done&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

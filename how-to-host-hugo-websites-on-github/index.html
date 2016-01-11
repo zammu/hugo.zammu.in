@@ -37,7 +37,9 @@
   </div>
   <h1 class="headline" itemprop="headline">How to host hugo websites on github</h1>
   <section class="body" itemprop="articleBody">
-    <p><link rel="stylesheet" type="text/css" href="/overrides.css" />
+    
+
+<p><link rel="stylesheet" type="text/css" href="/overrides.css" />
 <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
 <script src="/asciinema-player.js"></script></p>
 
@@ -64,6 +66,46 @@ source at <a href="https://github.com/zammu/hugo.zammu.in">https://github.com/za
 <p><div id="player-container"></div>
 <script src='/load-player.js'></script></p>
 
+<hr />
+
+<h3 id="here-is-the-script-used-in-the-above-screencast:4e8128887a72957b9075a012be1e4381">Here is the script used in the above screencast</h3>
+
+<pre><code class="language-bash"># init the new site
+hugo new site awesome-hugo-blog
+
+# init the repo
+cd awesome-hugo-blog
+git init
+git commit -m 'init'
+
+# setup the theme
+git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16
+# it is VERY important that you add it as a submodule and not just clone it
+
+# commit the theme
+git commit -m 'added theme'
+
+# update the config
+vim config.toml
+title = &quot;My very awesome blog&quot;
+theme = &quot;base16&quot;
+^
+git commit -m 'updated config'
+
+# now we need to go to github and create our repository and then
+git remote add origin git@github.com:minhajuddin/awesome-hugo-blog
+git push origin master -u
+
+# now we need to go to https://zammu.in/ and create a new site with the following  info
+# Recipe = Github =&gt; Hugo =&gt; Github
+# Title = My awesome Blog
+# Domain =
+# Subdomain = awesomehugo
+# Github URL = minhajuddin/awesome-hugo-blog
+
+echo &quot;That's it we are done&quot;
+</code></pre>
+
   </section>
 </article>
 
@@ -75,6 +117,8 @@ source at <a href="https://github.com/zammu/hugo.zammu.in">https://github.com/za
 <footer>
   <div class="container">
     <span class="copyright">&copy; 2016  Hugo on Zammu - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    |
+    Built by <a href='https://zammu.in/?utm_src=hugo.zammu.in'>https://zammu.in/</a>
   </div>
 </footer>
 
