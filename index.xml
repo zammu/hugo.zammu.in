@@ -6,8 +6,36 @@
     <description>Recent content on Hugo on Zammu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jan 2016 14:30:04 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2016 02:33:53 +0530</lastBuildDate>
     <atom:link href="http://hugo.zammu.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to host hugo websites on github</title>
+      <link>http://hugo.zammu.in/how-to-host-hugo-websites-on-github/</link>
+      <pubDate>Tue, 12 Jan 2016 02:33:53 +0530</pubDate>
+      
+      <guid>http://hugo.zammu.in/how-to-host-hugo-websites-on-github/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is a really fast static site generator. However, it is not
+very accessible. In this short post I&amp;rsquo;ll show you how to get your Hugo website
+built on Github automatically for each git push.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Sign up for &lt;a href=&#34;https://zammu.in/?invitation_code=GOHUGO16&#34;&gt;https://zammu.in/&lt;/a&gt; using the invitation code &lt;code&gt;GOHUGO16&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Link up your Github Profile from zammu.in&amp;rsquo;s home page after signing in.&lt;/li&gt;
+&lt;li&gt;Create a new site using the &amp;ldquo;Github =&amp;gt; Hugo =&amp;gt; Github&amp;rdquo; recipe and enter the
+ github url of your hugo website e.g. &lt;em&gt;zammu/hugo.zammu.in&lt;/em&gt; with the other
+ details.&lt;/li&gt;
+&lt;li&gt;That&amp;rsquo;s it. Now you whenever you push to your github repository, your website
+built using Hugo will be published to the subdomain.zammu.in&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;P.S I am the founder of &lt;a href=&#34;https://zammu.in&#34;&gt;https://zammu.in&lt;/a&gt; and would love to hear your feedback on
+it at &lt;a href=&#34;https://zammu.in/feedback?utm_src=hugo.zammu.in&#34;&gt;https://zammu.in/feedback&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;P.P.S This website is also hosted on &lt;a href=&#34;https://zammu.in/&#34;&gt;https://zammu.in/&lt;/a&gt; . You can checkout its
+source at &lt;a href=&#34;https://github.com/zammu/hugo.zammu.in&#34;&gt;https://github.com/zammu/hugo.zammu.in&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>about</title>
