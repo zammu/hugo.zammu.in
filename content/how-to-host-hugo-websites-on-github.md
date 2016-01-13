@@ -12,7 +12,7 @@ title = "How to host hugo websites on github"
 very accessible. In this short post I'll show you how to get your Hugo website
 built on Github automatically for each git push.
 
- 1. Sign up for [https://zammu.in/](https://zammu.in/?invitation_code=GOHUGO16) using the invitation code `GOHUGO16`.
+ 1. Sign up for [https://zammu.in/hugo](https://zammu.in/hugo?invitation_code=GOHUGO16) using the invitation code `GOHUGO16`.
  2. Link up your Github Profile from zammu.in's home page after signing in.
  3. Create a new site using the "Github => Hugo => Github" recipe and enter the
      github url of your hugo website e.g. *zammu/hugo.zammu.in* with the other
@@ -20,10 +20,10 @@ built on Github automatically for each git push.
  4. That's it. Now you whenever you push to your github repository, your website
     built using Hugo will be published to the subdomain.zammu.in
 
-P.S I am the founder of https://zammu.in and would love to hear your feedback on
+P.S I am the founder of https://zammu.in/hugo and would love to hear your feedback on
 it at [https://zammu.in/feedback](https://zammu.in/feedback?utm_src=hugo.zammu.in)
 
-P.P.S This website is also hosted on https://zammu.in/ . You can checkout its
+P.P.S This website is also hosted on https://zammu.in/hugo . You can checkout its
 source at https://github.com/zammu/hugo.zammu.in
 
 <div id="player-container"></div>
@@ -31,7 +31,7 @@ source at https://github.com/zammu/hugo.zammu.in
 
 - - -
 
-### Here is the script used in the above screencast
+**Here are the commands used in the above screencast if you want to copy them**
 
 ~~~bash
 # init the new site
