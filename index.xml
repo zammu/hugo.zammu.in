@@ -15,9 +15,7 @@
       <pubDate>Tue, 12 Jan 2016 02:33:53 +0530</pubDate>
       
       <guid>http://hugo.zammu.in/how-to-host-hugo-websites-on-github/</guid>
-      <description>
-
-&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/overrides.css&#34; /&gt;
+      <description>&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/overrides.css&#34; /&gt;
 &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://hugo.zammu.in/asciinema-player.css&#34; /&gt;
 &lt;script src=&#34;http://hugo.zammu.in/asciinema-player.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -26,7 +24,7 @@ very accessible. In this short post I&amp;rsquo;ll show you how to get your Hugo
 built on Github automatically for each git push.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Sign up for &lt;a href=&#34;https://zammu.in/?invitation_code=GOHUGO16&#34;&gt;https://zammu.in/&lt;/a&gt; using the invitation code &lt;code&gt;GOHUGO16&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Sign up for &lt;a href=&#34;https://zammu.in/hugo?invitation_code=GOHUGO16&#34;&gt;https://zammu.in/hugo&lt;/a&gt; using the invitation code &lt;code&gt;GOHUGO16&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Link up your Github Profile from zammu.in&amp;rsquo;s home page after signing in.&lt;/li&gt;
 &lt;li&gt;Create a new site using the &amp;ldquo;Github =&amp;gt; Hugo =&amp;gt; Github&amp;rdquo; recipe and enter the
  github url of your hugo website e.g. &lt;em&gt;zammu/hugo.zammu.in&lt;/em&gt; with the other
@@ -35,10 +33,10 @@ built on Github automatically for each git push.&lt;/p&gt;
 built using Hugo will be published to the subdomain.zammu.in&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;P.S I am the founder of &lt;a href=&#34;https://zammu.in&#34;&gt;https://zammu.in&lt;/a&gt; and would love to hear your feedback on
+&lt;p&gt;P.S I am the founder of &lt;a href=&#34;https://zammu.in/hugo&#34;&gt;https://zammu.in/hugo&lt;/a&gt; and would love to hear your feedback on
 it at &lt;a href=&#34;https://zammu.in/feedback?utm_src=hugo.zammu.in&#34;&gt;https://zammu.in/feedback&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;P.P.S This website is also hosted on &lt;a href=&#34;https://zammu.in/&#34;&gt;https://zammu.in/&lt;/a&gt; . You can checkout its
+&lt;p&gt;P.P.S This website is also hosted on &lt;a href=&#34;https://zammu.in/hugo&#34;&gt;https://zammu.in/hugo&lt;/a&gt; . You can checkout its
 source at &lt;a href=&#34;https://github.com/zammu/hugo.zammu.in&#34;&gt;https://github.com/zammu/hugo.zammu.in&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;div id=&#34;player-container&#34;&gt;&lt;/div&gt;
@@ -46,7 +44,7 @@ source at &lt;a href=&#34;https://github.com/zammu/hugo.zammu.in&#34;&gt;https:/
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;here-is-the-script-used-in-the-above-screencast:4e8128887a72957b9075a012be1e4381&#34;&gt;Here is the script used in the above screencast&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Here are the commands used in the above screencast if you want to copy them&lt;/strong&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# init the new site
 hugo new site awesome-hugo-blog
