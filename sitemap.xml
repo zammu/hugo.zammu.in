@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://hugo.zammu.in/</loc>
-    <lastmod>2016-01-29T09:22:29+05:30</lastmod>
+    <lastmod>2016-01-29T11:05:01+05:30</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://hugo.zammu.in/how-i-publish-my-blog-posts-using-hugo/</loc>
+    <lastmod>2016-01-29T11:05:01+05:30</lastmod>
   </url>
   
   <url>

@@ -6,8 +6,26 @@
     <description>Recent content on Hugo on Zammu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2016 09:22:29 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jan 2016 11:05:01 +0530</lastBuildDate>
     <atom:link href="http://hugo.zammu.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I publish my blog posts using hugo</title>
+      <link>http://hugo.zammu.in/how-i-publish-my-blog-posts-using-hugo/</link>
+      <pubDate>Fri, 29 Jan 2016 11:05:01 +0530</pubDate>
+      
+      <guid>http://hugo.zammu.in/how-i-publish-my-blog-posts-using-hugo/</guid>
+      <description>&lt;p&gt;So, there is a discussion happening on &lt;a href=&#34;https://discuss.gohugo.io/t/speed-of-updating-site/2557&#34;&gt;https://discuss.gohugo.io/t/speed-of-updating-site/2557&lt;/a&gt; about the ease of publishing blog posts using Hugo.&lt;/p&gt;
+
+&lt;p&gt;Here is how I do it using &lt;a href=&#34;https://zammu.in&#34;&gt;Zammu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I recorded a short video of me doing it, It took me less than 29 seconds to publish my blog post and all of it was automatically managed by [zammu.in][&lt;a href=&#34;https://zammu.in&#34;&gt;https://zammu.in&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can use this link to signup &lt;a href=&#34;https://zammu.in/hugo?invitation_code=GOHUGO16&#34;&gt;https://zammu.in/hugo?invitation_code=GOHUGO16&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/bidZcU7Zq7s?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>My time to shine</title>
