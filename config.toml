@@ -1,4 +1,5 @@
-baseurl = "http://hugo.zammu.in/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Hugo on Zammu"
 theme = "base16"
+PygmentsCodeFences = "true"
